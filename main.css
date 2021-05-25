@@ -1,4 +1,41 @@
 body {
-    background-color: lightgreen;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #64B7FF;
 }
 
+input {
+    margin: 10px;
+}
+
+nav {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 7%;
+}
+
+.nav-link {
+    border-style:outset;
+    border-radius:5px;
+    background-color: #0080FF;
+    color: white;
+    font-size: 20;
+    padding: 10px;
+    margin: 10px;
+    float: right;
+    text-decoration:none;
+}
+
+.login-form {
+    border-style: outset;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+}
