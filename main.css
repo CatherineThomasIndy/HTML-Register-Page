@@ -4,6 +4,15 @@ body {
 }
 
 input {
+    width: 85%;
+    margin: 20px;
+    padding: 10px;
+    border-style: solid 1px;
+    border-radius: 5px;
+    height: 10px;
+}
+
+h1 {
     margin: 10px;
 }
 
@@ -14,6 +23,23 @@ nav {
     left: 0;
     width: 100%;
     height: 7%;
+    border-style:outset;
+}
+
+button {
+    border-style:outset;
+    border-radius:5px;
+    background-color: #0080FF;
+    color: white;
+    font-size: 20;
+    padding: 10px;
+    margin: 10px 0px 0px 0px;
+    width: 100%
+}
+
+img {
+    margin: 15px;
+    align-content: center;
 }
 
 .nav-link {
@@ -30,12 +56,13 @@ nav {
 
 .login-form {
     border-style: outset;
+    border-radius: 10px;
     background-color: white;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    height: 400px;
-    width: 300px;
+    height: 575px;
+    width: 450px;
     padding: 20px;
 }
